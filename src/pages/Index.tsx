@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { toast } from "@/components/ui/sonner";
 import { motion } from "framer-motion";
 import Logo from "@/components/Logo";
+import UserIcon from "@/components/UserIcon";
+import BuildingIcon from "@/components/BuildingIcon";
 
 const Index = () => {
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
